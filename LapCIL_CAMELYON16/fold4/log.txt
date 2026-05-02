@@ -1,0 +1,1625 @@
+{"name": "fold0", "EPOCH": 200, "epoch_step": "[100]", "device": "cuda", "log_dir": "/media/chen/\u65b0\u52a0\u5377/EC_code/VMCIL/Results/AAAI_ALTER/Final/LapCIL_CAMELYON16V2_2.4V5/fold4", "train_show_freq": 40, "lr": 0.0001, "weight_decay": 0.0001, "lr_decay_ratio": 0.2, "batch_size": 1, "seed": 32, "num_cls": 2, "mDATA0_dir_train0": "/media/chen/\u65b0\u52a0\u5377/EC_code/VMCIL/train_labels/camelyon16/fold4/fold4_train.csv", "mDATA0_dir_val0": "/media/chen/\u65b0\u52a0\u5377/EC_code/VMCIL/train_labels/camelyon16/fold4/fold4_val.csv", "mDATA_dir_test0": "/media/chen/\u65b0\u52a0\u5377/EC_code/VMCIL/train_labels/camelyon16/fold4/fold4_test.csv", "dataset": "CAMELYON16", "isSaveModel": true, "feat_dir": "/media/chen/KINGSTON/CAMELYON16/data_feature/resnet50/"}
+training seed: 32
+training slides: 216, validation slides: 54, test slides: 54
+training slides: 216
+epoch: 0 idx: 0Loss : 0.7818863391876221
+epoch: 0 idx: 40Loss : 1.2363996621130444
+epoch: 0 idx: 80Loss : 1.0635982551324514
+epoch: 0 idx: 120Loss : 0.9893547834074201
+epoch: 0 idx: 160Loss : 0.9891981605428809
+epoch: 0 idx: 200Loss : 0.906582080592304
+train_loss_0 0.8658446059001748
+>>>>>>>>>>> Validation Epoch: 0
+  AUC 0.6278409361839294, recall 0.13636363636363635, F1 0.22222222222222218, precision 0.6, acc 0.6111111111111112,confusion_matrix[[30  2]
+ [19  3]]
+ 
+epoch: 1 idx: 0Loss : 1.2802881002426147
+epoch: 1 idx: 40Loss : 0.798594146462941
+epoch: 1 idx: 80Loss : 0.758950441651029
+epoch: 1 idx: 120Loss : 0.7552856276247627
+epoch: 1 idx: 160Loss : 0.7718388081635985
+epoch: 1 idx: 200Loss : 0.7269547264161462
+train_loss_0 0.7003457467089228
+>>>>>>>>>>> Validation Epoch: 1
+  AUC 0.6789773106575012, recall 0.0, F1 0.0, precision 0.0, acc 0.5925925925925926,confusion_matrix[[32  0]
+ [22  0]]
+ 
+epoch: 2 idx: 0Loss : 3.5041697025299072
+epoch: 2 idx: 40Loss : 0.8912050200671684
+epoch: 2 idx: 80Loss : 0.8165448809870415
+epoch: 2 idx: 120Loss : 0.753003586699401
+epoch: 2 idx: 160Loss : 0.6990659335940521
+epoch: 2 idx: 200Loss : 0.6636447469004203
+train_loss_0 0.637532008911
+>>>>>>>>>>> Validation Epoch: 2
+  AUC 0.6491477489471436, recall 0.0, F1 0.0, precision 0.0, acc 0.5925925925925926,confusion_matrix[[32  0]
+ [22  0]]
+ 
+no. 1 step stop_early
+epoch: 3 idx: 0Loss : 2.9887046813964844
+epoch: 3 idx: 40Loss : 0.8311436648775892
+epoch: 3 idx: 80Loss : 0.7088885414011684
+epoch: 3 idx: 120Loss : 0.7033832474834909
+epoch: 3 idx: 160Loss : 0.6896659987891868
+epoch: 3 idx: 200Loss : 0.6539525576955199
+train_loss_0 0.6303517524033345
+>>>>>>>>>>> Validation Epoch: 3
+  AUC 0.6661931872367859, recall 0.0, F1 0.0, precision 0.0, acc 0.5740740740740741,confusion_matrix[[31  1]
+ [22  0]]
+ 
+no. 2 step stop_early
+epoch: 4 idx: 0Loss : 3.0389397144317627
+epoch: 4 idx: 40Loss : 0.680685239321575
+epoch: 4 idx: 80Loss : 0.5932413395551712
+epoch: 4 idx: 120Loss : 0.577532434285703
+epoch: 4 idx: 160Loss : 0.5333875883168177
+epoch: 4 idx: 200Loss : 0.4970279320303017
+train_loss_0 0.4851146309099729
+>>>>>>>>>>> Validation Epoch: 4
+  AUC 0.7443181872367859, recall 0.09090909090909091, F1 0.16666666666666669, precision 1.0, acc 0.6296296296296297,confusion_matrix[[32  0]
+ [20  2]]
+ 
+epoch: 5 idx: 0Loss : 3.3980557918548584
+epoch: 5 idx: 40Loss : 0.6494026193168105
+epoch: 5 idx: 80Loss : 0.5282925289630154
+epoch: 5 idx: 120Loss : 0.47951525956207564
+epoch: 5 idx: 160Loss : 0.4596256768758993
+epoch: 5 idx: 200Loss : 0.44418550571843757
+train_loss_0 0.42850013228167816
+>>>>>>>>>>> Validation Epoch: 5
+  AUC 0.671875, recall 0.045454545454545456, F1 0.08695652173913045, precision 1.0, acc 0.6111111111111112,confusion_matrix[[32  0]
+ [21  1]]
+ 
+no. 1 step stop_early
+epoch: 6 idx: 0Loss : 1.9148119688034058
+epoch: 6 idx: 40Loss : 0.5687033074067497
+epoch: 6 idx: 80Loss : 0.4394698833448835
+epoch: 6 idx: 120Loss : 0.47766952174340477
+epoch: 6 idx: 160Loss : 0.4416044259950756
+epoch: 6 idx: 200Loss : 0.41562612769941093
+train_loss_0 0.3968228920946583
+>>>>>>>>>>> Validation Epoch: 6
+  AUC 0.7017045021057129, recall 0.045454545454545456, F1 0.08333333333333334, precision 0.5, acc 0.5925925925925926,confusion_matrix[[31  1]
+ [21  1]]
+ 
+no. 2 step stop_early
+epoch: 7 idx: 0Loss : 1.4420479536056519
+epoch: 7 idx: 40Loss : 0.5692320801544843
+epoch: 7 idx: 80Loss : 0.5234283200453644
+epoch: 7 idx: 120Loss : 0.4805530753941083
+epoch: 7 idx: 160Loss : 0.43017971071397293
+epoch: 7 idx: 200Loss : 0.4003956480674557
+train_loss_0 0.38973898760525993
+>>>>>>>>>>> Validation Epoch: 7
+  AUC 0.7386363744735718, recall 0.22727272727272727, F1 0.37037037037037035, precision 1.0, acc 0.6851851851851852,confusion_matrix[[32  0]
+ [17  5]]
+ 
+epoch: 8 idx: 0Loss : 0.44136926531791687
+epoch: 8 idx: 40Loss : 0.37322494664751904
+epoch: 8 idx: 80Loss : 0.3542496195568899
+epoch: 8 idx: 120Loss : 0.3676958380032269
+epoch: 8 idx: 160Loss : 0.3414184017242829
+epoch: 8 idx: 200Loss : 0.31216875872278205
+train_loss_0 0.30931011683639587
+>>>>>>>>>>> Validation Epoch: 8
+  AUC 0.7130681872367859, recall 0.09090909090909091, F1 0.16, precision 0.6666666666666666, acc 0.6111111111111112,confusion_matrix[[31  1]
+ [20  2]]
+ 
+no. 1 step stop_early
+epoch: 9 idx: 0Loss : 0.36465489864349365
+epoch: 9 idx: 40Loss : 0.3797541900265326
+epoch: 9 idx: 80Loss : 0.33905560200758
+epoch: 9 idx: 120Loss : 0.3680015680041503
+epoch: 9 idx: 160Loss : 0.32286448752137353
+epoch: 9 idx: 200Loss : 0.2887699374933704
+train_loss_0 0.279359892638038
+>>>>>>>>>>> Validation Epoch: 9
+  AUC 0.7457386255264282, recall 0.2727272727272727, F1 0.41379310344827586, precision 0.8571428571428571, acc 0.6851851851851852,confusion_matrix[[31  1]
+ [16  6]]
+ 
+epoch: 10 idx: 0Loss : 0.052982479333877563
+epoch: 10 idx: 40Loss : 0.39809284604540685
+epoch: 10 idx: 80Loss : 0.33999830724263314
+epoch: 10 idx: 120Loss : 0.33650030597201586
+epoch: 10 idx: 160Loss : 0.3047517039003256
+epoch: 10 idx: 200Loss : 0.2892585533105801
+train_loss_0 0.2792515055582583
+>>>>>>>>>>> Validation Epoch: 10
+  AUC 0.7073863744735718, recall 0.13636363636363635, F1 0.24000000000000002, precision 1.0, acc 0.6481481481481481,confusion_matrix[[32  0]
+ [19  3]]
+ 
+no. 1 step stop_early
+epoch: 11 idx: 0Loss : 0.6448327302932739
+epoch: 11 idx: 40Loss : 0.40245571322370005
+epoch: 11 idx: 80Loss : 0.3288281304541872
+epoch: 11 idx: 120Loss : 0.325758173893887
+epoch: 11 idx: 160Loss : 0.27763292384702676
+epoch: 11 idx: 200Loss : 0.2607118801954573
+train_loss_0 0.25012372085189716
+>>>>>>>>>>> Validation Epoch: 11
+  AUC 0.7130681872367859, recall 0.3181818181818182, F1 0.4666666666666667, precision 0.875, acc 0.7037037037037037,confusion_matrix[[31  1]
+ [15  7]]
+ 
+no. 2 step stop_early
+epoch: 12 idx: 0Loss : 2.461245059967041
+epoch: 12 idx: 40Loss : 0.4260163232456984
+epoch: 12 idx: 80Loss : 0.43864169999681135
+epoch: 12 idx: 120Loss : 0.4300978045099057
+epoch: 12 idx: 160Loss : 0.39930788517343196
+epoch: 12 idx: 200Loss : 0.3890193445008278
+train_loss_0 0.3832079912973751
+>>>>>>>>>>> Validation Epoch: 12
+  AUC 0.8238636255264282, recall 0.18181818181818182, F1 0.3076923076923077, precision 1.0, acc 0.6666666666666666,confusion_matrix[[32  0]
+ [18  4]]
+ 
+epoch: 13 idx: 0Loss : 0.40260618925094604
+epoch: 13 idx: 40Loss : 0.607754384735372
+epoch: 13 idx: 80Loss : 0.46810739279586683
+epoch: 13 idx: 120Loss : 0.40390624537917763
+epoch: 13 idx: 160Loss : 0.37143351611397835
+epoch: 13 idx: 200Loss : 0.3621507439952325
+train_loss_0 0.3459729838930933
+>>>>>>>>>>> Validation Epoch: 13
+  AUC 0.7585227489471436, recall 0.36363636363636365, F1 0.5161290322580644, precision 0.8888888888888888, acc 0.7222222222222222,confusion_matrix[[31  1]
+ [14  8]]
+ 
+no. 1 step stop_early
+epoch: 14 idx: 0Loss : 0.5353832244873047
+epoch: 14 idx: 40Loss : 0.2940049935586569
+epoch: 14 idx: 80Loss : 0.25611251839982735
+epoch: 14 idx: 120Loss : 0.29780985615581795
+epoch: 14 idx: 160Loss : 0.27268649266254713
+epoch: 14 idx: 200Loss : 0.25749029590926636
+train_loss_0 0.24339809568212972
+>>>>>>>>>>> Validation Epoch: 14
+  AUC 0.8252841234207153, recall 0.2727272727272727, F1 0.42857142857142855, precision 1.0, acc 0.7037037037037037,confusion_matrix[[32  0]
+ [16  6]]
+ 
+epoch: 15 idx: 0Loss : 0.10334085673093796
+epoch: 15 idx: 40Loss : 0.1343983405031173
+epoch: 15 idx: 80Loss : 0.16682633629875734
+epoch: 15 idx: 120Loss : 0.15627925347597896
+epoch: 15 idx: 160Loss : 0.16756900052584472
+epoch: 15 idx: 200Loss : 0.15168655843759796
+train_loss_0 0.14912006732191474
+>>>>>>>>>>> Validation Epoch: 15
+  AUC 0.8125, recall 0.45454545454545453, F1 0.625, precision 1.0, acc 0.7777777777777778,confusion_matrix[[32  0]
+ [12 10]]
+ 
+epoch: 16 idx: 0Loss : 0.05082278326153755
+epoch: 16 idx: 40Loss : 0.15553314682300678
+epoch: 16 idx: 80Loss : 0.14371611872963883
+epoch: 16 idx: 120Loss : 0.1529171775813861
+epoch: 16 idx: 160Loss : 0.15614241057636669
+epoch: 16 idx: 200Loss : 0.1407742675814305
+train_loss_0 0.13824800341724228
+>>>>>>>>>>> Validation Epoch: 16
+  AUC 0.8210226893424988, recall 0.2727272727272727, F1 0.42857142857142855, precision 1.0, acc 0.7037037037037037,confusion_matrix[[32  0]
+ [16  6]]
+ 
+no. 1 step stop_early
+epoch: 17 idx: 0Loss : 3.149822950363159
+epoch: 17 idx: 40Loss : 0.3145137874029077
+epoch: 17 idx: 80Loss : 0.21743702708835494
+epoch: 17 idx: 120Loss : 0.22148184049181824
+epoch: 17 idx: 160Loss : 0.1996274196538461
+epoch: 17 idx: 200Loss : 0.18637594635962088
+train_loss_0 0.1764466525459688
+>>>>>>>>>>> Validation Epoch: 17
+  AUC 0.7826704978942871, recall 0.22727272727272727, F1 0.37037037037037035, precision 1.0, acc 0.6851851851851852,confusion_matrix[[32  0]
+ [17  5]]
+ 
+no. 2 step stop_early
+epoch: 18 idx: 0Loss : 0.4121799170970917
+epoch: 18 idx: 40Loss : 0.11146637285199221
+epoch: 18 idx: 80Loss : 0.1038866973870842
+epoch: 18 idx: 120Loss : 0.10432771242763424
+epoch: 18 idx: 160Loss : 0.09193306506241915
+epoch: 18 idx: 200Loss : 0.08301664879497787
+train_loss_0 0.07959254887309389
+>>>>>>>>>>> Validation Epoch: 18
+  AUC 0.8707386255264282, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+epoch: 19 idx: 0Loss : 0.13267888128757477
+epoch: 19 idx: 40Loss : 0.053112376302767474
+epoch: 19 idx: 80Loss : 0.056557204408885876
+epoch: 19 idx: 120Loss : 0.08033615177555475
+epoch: 19 idx: 160Loss : 0.0909914535775174
+epoch: 19 idx: 200Loss : 0.09340806761951288
+train_loss_0 0.09124774096835608
+>>>>>>>>>>> Validation Epoch: 19
+  AUC 0.8338068127632141, recall 0.36363636363636365, F1 0.5333333333333333, precision 1.0, acc 0.7407407407407407,confusion_matrix[[32  0]
+ [14  8]]
+ 
+no. 1 step stop_early
+epoch: 20 idx: 0Loss : 0.05889720469713211
+epoch: 20 idx: 40Loss : 0.10045734044198491
+epoch: 20 idx: 80Loss : 0.11396339638115562
+epoch: 20 idx: 120Loss : 0.10079918174801418
+epoch: 20 idx: 160Loss : 0.1002891343678073
+epoch: 20 idx: 200Loss : 0.09701731601552326
+train_loss_0 0.09247081844919362
+>>>>>>>>>>> Validation Epoch: 20
+  AUC 0.8252841234207153, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+no. 2 step stop_early
+epoch: 21 idx: 0Loss : 0.24004662036895752
+epoch: 21 idx: 40Loss : 0.17969756439731832
+epoch: 21 idx: 80Loss : 0.12752398599908096
+epoch: 21 idx: 120Loss : 0.10637161527117787
+epoch: 21 idx: 160Loss : 0.10273364840045805
+epoch: 21 idx: 200Loss : 0.09693653600957117
+train_loss_0 0.09259786592498458
+>>>>>>>>>>> Validation Epoch: 21
+  AUC 0.8792613744735718, recall 0.3181818181818182, F1 0.4827586206896552, precision 1.0, acc 0.7222222222222222,confusion_matrix[[32  0]
+ [15  7]]
+ 
+no. 3 step stop_early
+epoch: 22 idx: 0Loss : 0.7634347677230835
+epoch: 22 idx: 40Loss : 0.08354734283447458
+epoch: 22 idx: 80Loss : 0.07711528816219436
+epoch: 22 idx: 120Loss : 0.06694659071572535
+epoch: 22 idx: 160Loss : 0.09021882071939889
+epoch: 22 idx: 200Loss : 0.10657389918792183
+train_loss_0 0.10185727600116513
+>>>>>>>>>>> Validation Epoch: 22
+  AUC 0.8224431872367859, recall 0.22727272727272727, F1 0.37037037037037035, precision 1.0, acc 0.6851851851851852,confusion_matrix[[32  0]
+ [17  5]]
+ 
+no. 4 step stop_early
+epoch: 23 idx: 0Loss : 0.04977657273411751
+epoch: 23 idx: 40Loss : 0.22915251148728336
+epoch: 23 idx: 80Loss : 0.17192671239810112
+epoch: 23 idx: 120Loss : 0.14477975419332842
+epoch: 23 idx: 160Loss : 0.12078045302268664
+epoch: 23 idx: 200Loss : 0.10594229568503136
+train_loss_0 0.10312512926779399
+>>>>>>>>>>> Validation Epoch: 23
+  AUC 0.8522727489471436, recall 0.3181818181818182, F1 0.4827586206896552, precision 1.0, acc 0.7222222222222222,confusion_matrix[[32  0]
+ [15  7]]
+ 
+no. 5 step stop_early
+epoch: 24 idx: 0Loss : 0.05318155512213707
+epoch: 24 idx: 40Loss : 0.31708317441743705
+epoch: 24 idx: 80Loss : 0.27207443650825747
+epoch: 24 idx: 120Loss : 0.29836393392052885
+epoch: 24 idx: 160Loss : 0.2903170606934611
+epoch: 24 idx: 200Loss : 0.2772356413593455
+train_loss_0 0.26806550089285913
+>>>>>>>>>>> Validation Epoch: 24
+  AUC 0.8607954382896423, recall 0.4090909090909091, F1 0.5806451612903226, precision 1.0, acc 0.7592592592592593,confusion_matrix[[32  0]
+ [13  9]]
+ 
+no. 6 step stop_early
+epoch: 25 idx: 0Loss : 0.017868613824248314
+epoch: 25 idx: 40Loss : 0.3923083248917509
+epoch: 25 idx: 80Loss : 0.2499753478589776
+epoch: 25 idx: 120Loss : 0.2718039723728028
+epoch: 25 idx: 160Loss : 0.24172842660543284
+epoch: 25 idx: 200Loss : 0.22146730753037494
+train_loss_0 0.2126958461274929
+>>>>>>>>>>> Validation Epoch: 25
+  AUC 0.8125, recall 0.18181818181818182, F1 0.3076923076923077, precision 1.0, acc 0.6666666666666666,confusion_matrix[[32  0]
+ [18  4]]
+ 
+no. 7 step stop_early
+epoch: 26 idx: 0Loss : 0.42786699533462524
+epoch: 26 idx: 40Loss : 0.3282323655013631
+epoch: 26 idx: 80Loss : 0.2286611530536992
+epoch: 26 idx: 120Loss : 0.22459256637835812
+epoch: 26 idx: 160Loss : 0.19702963928024733
+epoch: 26 idx: 200Loss : 0.1727289675801507
+train_loss_0 0.16275601850529037
+>>>>>>>>>>> Validation Epoch: 26
+  AUC 0.8707386255264282, recall 0.18181818181818182, F1 0.3076923076923077, precision 1.0, acc 0.6666666666666666,confusion_matrix[[32  0]
+ [18  4]]
+ 
+no. 8 step stop_early
+epoch: 27 idx: 0Loss : 0.04032332822680473
+epoch: 27 idx: 40Loss : 0.18666128296740125
+epoch: 27 idx: 80Loss : 0.1226947480932767
+epoch: 27 idx: 120Loss : 0.12028777091884779
+epoch: 27 idx: 160Loss : 0.1141615496602053
+epoch: 27 idx: 200Loss : 0.11691238911265628
+train_loss_0 0.11691693374748663
+>>>>>>>>>>> Validation Epoch: 27
+  AUC 0.796875, recall 0.5, F1 0.6470588235294118, precision 0.9166666666666666, acc 0.7777777777777778,confusion_matrix[[31  1]
+ [11 11]]
+ 
+no. 9 step stop_early
+epoch: 28 idx: 0Loss : 0.014646392315626144
+epoch: 28 idx: 40Loss : 0.18680293040561968
+epoch: 28 idx: 80Loss : 0.11862162844714297
+epoch: 28 idx: 120Loss : 0.1197889778570303
+epoch: 28 idx: 160Loss : 0.12147731556119341
+epoch: 28 idx: 200Loss : 0.1286395040314532
+train_loss_0 0.1276855572668612
+>>>>>>>>>>> Validation Epoch: 28
+  AUC 0.7897727489471436, recall 0.2727272727272727, F1 0.42857142857142855, precision 1.0, acc 0.7037037037037037,confusion_matrix[[32  0]
+ [16  6]]
+ 
+no. 10 step stop_early
+epoch: 29 idx: 0Loss : 0.05620057135820389
+epoch: 29 idx: 40Loss : 0.297406704918946
+epoch: 29 idx: 80Loss : 0.18862073743548535
+epoch: 29 idx: 120Loss : 0.16546311292353313
+epoch: 29 idx: 160Loss : 0.15063819765434702
+epoch: 29 idx: 200Loss : 0.13036795970394488
+train_loss_0 0.12227818973426313
+>>>>>>>>>>> Validation Epoch: 29
+  AUC 0.8721591234207153, recall 0.5454545454545454, F1 0.7058823529411764, precision 1.0, acc 0.8148148148148148,confusion_matrix[[32  0]
+ [10 12]]
+ 
+epoch: 30 idx: 0Loss : 0.17049351334571838
+epoch: 30 idx: 40Loss : 0.0656114683242333
+epoch: 30 idx: 80Loss : 0.09677705396816348
+epoch: 30 idx: 120Loss : 0.13670005514864325
+epoch: 30 idx: 160Loss : 0.1162960094057238
+epoch: 30 idx: 200Loss : 0.10133698914767737
+train_loss_0 0.0950294395401451
+>>>>>>>>>>> Validation Epoch: 30
+  AUC 0.8536931872367859, recall 0.4090909090909091, F1 0.5806451612903226, precision 1.0, acc 0.7592592592592593,confusion_matrix[[32  0]
+ [13  9]]
+ 
+no. 1 step stop_early
+epoch: 31 idx: 0Loss : 0.18066589534282684
+epoch: 31 idx: 40Loss : 0.09341105955345705
+epoch: 31 idx: 80Loss : 0.06510824750222566
+epoch: 31 idx: 120Loss : 0.058844592234541505
+epoch: 31 idx: 160Loss : 0.051198008947758694
+epoch: 31 idx: 200Loss : 0.05290864460397444
+train_loss_0 0.05088492040813561
+>>>>>>>>>>> Validation Epoch: 31
+  AUC 0.8025568723678589, recall 0.5454545454545454, F1 0.7058823529411764, precision 1.0, acc 0.8148148148148148,confusion_matrix[[32  0]
+ [10 12]]
+ 
+no. 2 step stop_early
+epoch: 32 idx: 0Loss : 0.15534420311450958
+epoch: 32 idx: 40Loss : 0.04362886099731507
+epoch: 32 idx: 80Loss : 0.033619356832248204
+epoch: 32 idx: 120Loss : 0.034663164396156125
+epoch: 32 idx: 160Loss : 0.0316382790632157
+epoch: 32 idx: 200Loss : 0.028497416176422583
+train_loss_0 0.02723822210021846
+>>>>>>>>>>> Validation Epoch: 32
+  AUC 0.8522727489471436, recall 0.5909090909090909, F1 0.7428571428571429, precision 1.0, acc 0.8333333333333334,confusion_matrix[[32  0]
+ [ 9 13]]
+ 
+no. 3 step stop_early
+epoch: 33 idx: 0Loss : 0.003641404677182436
+epoch: 33 idx: 40Loss : 0.01987662186161842
+epoch: 33 idx: 80Loss : 0.02017046502637472
+epoch: 33 idx: 120Loss : 0.02218819923016721
+epoch: 33 idx: 160Loss : 0.02609944358940462
+epoch: 33 idx: 200Loss : 0.02314146507430238
+train_loss_0 0.022397638512801323
+>>>>>>>>>>> Validation Epoch: 33
+  AUC 0.8764204382896423, recall 0.45454545454545453, F1 0.625, precision 1.0, acc 0.7777777777777778,confusion_matrix[[32  0]
+ [12 10]]
+ 
+no. 4 step stop_early
+epoch: 34 idx: 0Loss : 0.003725375747308135
+epoch: 34 idx: 40Loss : 0.015695035946697404
+epoch: 34 idx: 80Loss : 0.017905746718420344
+epoch: 34 idx: 120Loss : 0.019033807315340785
+epoch: 34 idx: 160Loss : 0.01619695309302388
+epoch: 34 idx: 200Loss : 0.01509146408823063
+train_loss_0 0.014925964291856952
+>>>>>>>>>>> Validation Epoch: 34
+  AUC 0.8821022510528564, recall 0.5909090909090909, F1 0.7428571428571429, precision 1.0, acc 0.8333333333333334,confusion_matrix[[32  0]
+ [ 9 13]]
+ 
+epoch: 35 idx: 0Loss : 0.004993467591702938
+epoch: 35 idx: 40Loss : 0.02543017421712426
+epoch: 35 idx: 80Loss : 0.017141542454153773
+epoch: 35 idx: 120Loss : 0.01777149527400644
+epoch: 35 idx: 160Loss : 0.0158947028726096
+epoch: 35 idx: 200Loss : 0.014071311566276173
+train_loss_0 0.013588494063971083
+>>>>>>>>>>> Validation Epoch: 35
+  AUC 0.894886314868927, recall 0.5909090909090909, F1 0.7428571428571429, precision 1.0, acc 0.8333333333333334,confusion_matrix[[32  0]
+ [ 9 13]]
+ 
+epoch: 36 idx: 0Loss : 0.00624846201390028
+epoch: 36 idx: 40Loss : 0.19435797648208802
+epoch: 36 idx: 80Loss : 0.20934924888601394
+epoch: 36 idx: 120Loss : 0.21180207746775345
+epoch: 36 idx: 160Loss : 0.23232159316749387
+epoch: 36 idx: 200Loss : 0.21428789050041397
+train_loss_0 0.21215824336939895
+>>>>>>>>>>> Validation Epoch: 36
+  AUC 0.855113685131073, recall 0.5454545454545454, F1 0.6857142857142856, precision 0.9230769230769231, acc 0.7962962962962963,confusion_matrix[[31  1]
+ [10 12]]
+ 
+no. 1 step stop_early
+epoch: 37 idx: 0Loss : 0.04347255453467369
+epoch: 37 idx: 40Loss : 0.2923969489503822
+epoch: 37 idx: 80Loss : 0.2213716064283357
+epoch: 37 idx: 120Loss : 0.19189800926345144
+epoch: 37 idx: 160Loss : 0.16644370398232314
+epoch: 37 idx: 200Loss : 0.15526121418871702
+train_loss_0 0.1491903475886442
+>>>>>>>>>>> Validation Epoch: 37
+  AUC 0.8196022510528564, recall 0.5454545454545454, F1 0.6666666666666665, precision 0.8571428571428571, acc 0.7777777777777778,confusion_matrix[[30  2]
+ [10 12]]
+ 
+no. 2 step stop_early
+epoch: 38 idx: 0Loss : 0.06531666964292526
+epoch: 38 idx: 40Loss : 0.08413309460717361
+epoch: 38 idx: 80Loss : 0.10832832438575636
+epoch: 38 idx: 120Loss : 0.09815693094858652
+epoch: 38 idx: 160Loss : 0.09054922454476143
+epoch: 38 idx: 200Loss : 0.08821029975709715
+train_loss_0 0.08920679086364937
+>>>>>>>>>>> Validation Epoch: 38
+  AUC 0.8849432468414307, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+no. 3 step stop_early
+epoch: 39 idx: 0Loss : 0.022540787234902382
+epoch: 39 idx: 40Loss : 0.0791332930061688
+epoch: 39 idx: 80Loss : 0.057809300644159387
+epoch: 39 idx: 120Loss : 0.05868696713283002
+epoch: 39 idx: 160Loss : 0.06225918574638659
+epoch: 39 idx: 200Loss : 0.05458306209338651
+train_loss_0 0.05190195911469983
+>>>>>>>>>>> Validation Epoch: 39
+  AUC 0.8707386255264282, recall 0.5454545454545454, F1 0.7058823529411764, precision 1.0, acc 0.8148148148148148,confusion_matrix[[32  0]
+ [10 12]]
+ 
+no. 4 step stop_early
+epoch: 40 idx: 0Loss : 0.07878442108631134
+epoch: 40 idx: 40Loss : 0.07775377359336368
+epoch: 40 idx: 80Loss : 0.06782204526520397
+epoch: 40 idx: 120Loss : 0.052675600540695554
+epoch: 40 idx: 160Loss : 0.046331020608771506
+epoch: 40 idx: 200Loss : 0.04085548568922665
+train_loss_0 0.038631814664169734
+>>>>>>>>>>> Validation Epoch: 40
+  AUC 0.8821023106575012, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+no. 5 step stop_early
+epoch: 41 idx: 0Loss : 0.20417481660842896
+epoch: 41 idx: 40Loss : 0.06156826100050239
+epoch: 41 idx: 80Loss : 0.044574184212671224
+epoch: 41 idx: 120Loss : 0.037408806933789236
+epoch: 41 idx: 160Loss : 0.03353397363848286
+epoch: 41 idx: 200Loss : 0.030428055829886527
+train_loss_0 0.028801314493105724
+>>>>>>>>>>> Validation Epoch: 41
+  AUC 0.9034090638160706, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+no. 6 step stop_early
+epoch: 42 idx: 0Loss : 5.602820692729438e-06
+epoch: 42 idx: 40Loss : 0.010997433538050688
+epoch: 42 idx: 80Loss : 0.009842976196579313
+epoch: 42 idx: 120Loss : 0.009102548443529965
+epoch: 42 idx: 160Loss : 0.009908882197969326
+epoch: 42 idx: 200Loss : 0.009323508487695172
+train_loss_0 0.009108485231467558
+>>>>>>>>>>> Validation Epoch: 42
+  AUC 0.9119318723678589, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+no. 7 step stop_early
+epoch: 43 idx: 0Loss : 1.4305104514278355e-06
+epoch: 43 idx: 40Loss : 0.009862942860435141
+epoch: 43 idx: 80Loss : 0.008371294683262264
+epoch: 43 idx: 120Loss : 0.008363190546909684
+epoch: 43 idx: 160Loss : 0.007704738329809738
+epoch: 43 idx: 200Loss : 0.006975029069689445
+train_loss_0 0.006857929868593497
+>>>>>>>>>>> Validation Epoch: 43
+  AUC 0.9119318127632141, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+no. 8 step stop_early
+epoch: 44 idx: 0Loss : 2.3841855067985307e-07
+epoch: 44 idx: 40Loss : 0.004763700088936673
+epoch: 44 idx: 80Loss : 0.005004253838263509
+epoch: 44 idx: 120Loss : 0.0046086783513926725
+epoch: 44 idx: 160Loss : 0.0043722324574419595
+epoch: 44 idx: 200Loss : 0.004042716319817635
+train_loss_0 0.004041224638468018
+>>>>>>>>>>> Validation Epoch: 44
+  AUC 0.9161931276321411, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+no. 9 step stop_early
+epoch: 45 idx: 0Loss : 1.1920928244535389e-07
+epoch: 45 idx: 40Loss : 0.0032326539239428153
+epoch: 45 idx: 80Loss : 0.0034084291647034164
+epoch: 45 idx: 120Loss : 0.003192543524374053
+epoch: 45 idx: 160Loss : 0.0031289098718488527
+epoch: 45 idx: 200Loss : 0.0029747512685773217
+train_loss_0 0.002983514814929821
+>>>>>>>>>>> Validation Epoch: 45
+  AUC 0.9275568127632141, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+no. 10 step stop_early
+epoch: 46 idx: 0Loss : 1.1920928244535389e-07
+epoch: 46 idx: 40Loss : 0.0051284396216852235
+epoch: 46 idx: 80Loss : 0.004456982980231825
+epoch: 46 idx: 120Loss : 0.003536819869931815
+epoch: 46 idx: 160Loss : 0.0032911590068545175
+epoch: 46 idx: 200Loss : 0.003052210382865767
+train_loss_0 0.003028958637052782
+>>>>>>>>>>> Validation Epoch: 46
+  AUC 0.9318181872367859, recall 0.5909090909090909, F1 0.7428571428571429, precision 1.0, acc 0.8333333333333334,confusion_matrix[[32  0]
+ [ 9 13]]
+ 
+epoch: 47 idx: 0Loss : 0.0
+epoch: 47 idx: 40Loss : 0.00307036002280855
+epoch: 47 idx: 80Loss : 0.002639291104732457
+epoch: 47 idx: 120Loss : 0.002528363048025372
+epoch: 47 idx: 160Loss : 0.003127053202560554
+epoch: 47 idx: 200Loss : 0.0035307942817773713
+train_loss_0 0.003387477872399162
+>>>>>>>>>>> Validation Epoch: 47
+  AUC 0.9161931276321411, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+no. 1 step stop_early
+epoch: 48 idx: 0Loss : 0.0
+epoch: 48 idx: 40Loss : 0.06120455143132947
+epoch: 48 idx: 80Loss : 0.20905578061523342
+epoch: 48 idx: 120Loss : 0.25649742545767196
+epoch: 48 idx: 160Loss : 0.2663226903228769
+epoch: 48 idx: 200Loss : 0.2860408692999885
+train_loss_0 0.31343810896742147
+>>>>>>>>>>> Validation Epoch: 48
+  AUC 0.796875, recall 0.045454545454545456, F1 0.08695652173913045, precision 1.0, acc 0.6111111111111112,confusion_matrix[[32  0]
+ [21  1]]
+ 
+no. 2 step stop_early
+epoch: 49 idx: 0Loss : 8.758755683898926
+epoch: 49 idx: 40Loss : 0.7851020615778952
+epoch: 49 idx: 80Loss : 0.6196096396933013
+epoch: 49 idx: 120Loss : 0.47478798798331706
+epoch: 49 idx: 160Loss : 0.38207477721233885
+epoch: 49 idx: 200Loss : 0.3327697085204392
+train_loss_0 0.3132625071280038
+>>>>>>>>>>> Validation Epoch: 49
+  AUC 0.8948863744735718, recall 0.5909090909090909, F1 0.7428571428571429, precision 1.0, acc 0.8333333333333334,confusion_matrix[[32  0]
+ [ 9 13]]
+ 
+no. 3 step stop_early
+epoch: 50 idx: 0Loss : 0.0008937893435359001
+epoch: 50 idx: 40Loss : 0.13555482006702776
+epoch: 50 idx: 80Loss : 0.1135012258381648
+epoch: 50 idx: 120Loss : 0.10491921825667977
+epoch: 50 idx: 160Loss : 0.08652796525164218
+epoch: 50 idx: 200Loss : 0.07836321607389586
+train_loss_0 0.07359429670150643
+>>>>>>>>>>> Validation Epoch: 50
+  AUC 0.9232954978942871, recall 0.5909090909090909, F1 0.7428571428571429, precision 1.0, acc 0.8333333333333334,confusion_matrix[[32  0]
+ [ 9 13]]
+ 
+no. 4 step stop_early
+epoch: 51 idx: 0Loss : 0.0006094505661167204
+epoch: 51 idx: 40Loss : 0.02758364033824608
+epoch: 51 idx: 80Loss : 0.027752978020060937
+epoch: 51 idx: 120Loss : 0.0289708284113573
+epoch: 51 idx: 160Loss : 0.027788391609994318
+epoch: 51 idx: 200Loss : 0.026965800752381867
+train_loss_0 0.025357021268108352
+>>>>>>>>>>> Validation Epoch: 51
+  AUC 0.8721591234207153, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+no. 5 step stop_early
+epoch: 52 idx: 0Loss : 0.009044628590345383
+epoch: 52 idx: 40Loss : 0.027074443212324873
+epoch: 52 idx: 80Loss : 0.017458276654760456
+epoch: 52 idx: 120Loss : 0.02261002226476203
+epoch: 52 idx: 160Loss : 0.021927340694594222
+epoch: 52 idx: 200Loss : 0.0300082615485729
+train_loss_0 0.028168589888443906
+>>>>>>>>>>> Validation Epoch: 52
+  AUC 0.8721590638160706, recall 0.5909090909090909, F1 0.7428571428571429, precision 1.0, acc 0.8333333333333334,confusion_matrix[[32  0]
+ [ 9 13]]
+ 
+no. 6 step stop_early
+epoch: 53 idx: 0Loss : 0.0071079242043197155
+epoch: 53 idx: 40Loss : 0.027430789812569856
+epoch: 53 idx: 80Loss : 0.022055853138139646
+epoch: 53 idx: 120Loss : 0.01952892737515854
+epoch: 53 idx: 160Loss : 0.017347711165195564
+epoch: 53 idx: 200Loss : 0.015960951980663135
+train_loss_0 0.015449391965122553
+>>>>>>>>>>> Validation Epoch: 53
+  AUC 0.90625, recall 0.6363636363636364, F1 0.7777777777777778, precision 1.0, acc 0.8518518518518519,confusion_matrix[[32  0]
+ [ 8 14]]
+ 
+no. 7 step stop_early
+epoch: 54 idx: 0Loss : 0.0002899941464420408
+epoch: 54 idx: 40Loss : 0.009777283048118457
+epoch: 54 idx: 80Loss : 0.01159561534149976
+epoch: 54 idx: 120Loss : 0.012653223186480468
+epoch: 54 idx: 160Loss : 0.010637842679050958
+epoch: 54 idx: 200Loss : 0.010420690946583686
+train_loss_0 0.010152736087897447
+>>>>>>>>>>> Validation Epoch: 54
+  AUC 0.9161931872367859, recall 0.6363636363636364, F1 0.7777777777777778, precision 1.0, acc 0.8518518518518519,confusion_matrix[[32  0]
+ [ 8 14]]
+ 
+epoch: 55 idx: 0Loss : 0.0002079985715681687
+epoch: 55 idx: 40Loss : 0.006403615396265412
+epoch: 55 idx: 80Loss : 0.0055402535075581546
+epoch: 55 idx: 120Loss : 0.005970770134837678
+epoch: 55 idx: 160Loss : 0.005357116763757014
+epoch: 55 idx: 200Loss : 0.00546358864177283
+train_loss_0 0.0054250859109449805
+>>>>>>>>>>> Validation Epoch: 55
+  AUC 0.90625, recall 0.6363636363636364, F1 0.7777777777777778, precision 1.0, acc 0.8518518518518519,confusion_matrix[[32  0]
+ [ 8 14]]
+ 
+no. 1 step stop_early
+epoch: 56 idx: 0Loss : 0.00014184899919200689
+epoch: 56 idx: 40Loss : 0.00479027685677692
+epoch: 56 idx: 80Loss : 0.004271341449426093
+epoch: 56 idx: 120Loss : 0.004544624338600588
+epoch: 56 idx: 160Loss : 0.004484052035626069
+epoch: 56 idx: 200Loss : 0.004444885952210669
+train_loss_0 0.004298195817292351
+>>>>>>>>>>> Validation Epoch: 56
+  AUC 0.9105113744735718, recall 0.6818181818181818, F1 0.8108108108108109, precision 1.0, acc 0.8703703703703703,confusion_matrix[[32  0]
+ [ 7 15]]
+ 
+epoch: 57 idx: 0Loss : 0.0009585791267454624
+epoch: 57 idx: 40Loss : 0.0032267353421623047
+epoch: 57 idx: 80Loss : 0.0033167976535073444
+epoch: 57 idx: 120Loss : 0.0033079603166210852
+epoch: 57 idx: 160Loss : 0.0033338984184270956
+epoch: 57 idx: 200Loss : 0.003296956232758183
+train_loss_0 0.003290613529111489
+>>>>>>>>>>> Validation Epoch: 57
+  AUC 0.9232954382896423, recall 0.6818181818181818, F1 0.8108108108108109, precision 1.0, acc 0.8703703703703703,confusion_matrix[[32  0]
+ [ 7 15]]
+ 
+epoch: 58 idx: 0Loss : 0.0006970121758058667
+epoch: 58 idx: 40Loss : 0.0031865598076287493
+epoch: 58 idx: 80Loss : 0.0029980217589113244
+epoch: 58 idx: 120Loss : 0.0028539148002573876
+epoch: 58 idx: 160Loss : 0.002808294713163785
+epoch: 58 idx: 200Loss : 0.003788858370471812
+train_loss_0 0.003560319033104592
+>>>>>>>>>>> Validation Epoch: 58
+  AUC 0.9119318127632141, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+no. 1 step stop_early
+epoch: 59 idx: 0Loss : 0.002220309805124998
+epoch: 59 idx: 40Loss : 0.08050195824447345
+epoch: 59 idx: 80Loss : 0.057218424155909935
+epoch: 59 idx: 120Loss : 0.047251393087597716
+epoch: 59 idx: 160Loss : 0.11251519519676229
+epoch: 59 idx: 200Loss : 0.18638500775302952
+train_loss_0 0.18346521521603534
+>>>>>>>>>>> Validation Epoch: 59
+  AUC 0.8522727489471436, recall 0.5, F1 0.6666666666666666, precision 1.0, acc 0.7962962962962963,confusion_matrix[[32  0]
+ [11 11]]
+ 
+no. 2 step stop_early
+epoch: 60 idx: 0Loss : 0.9333083629608154
+epoch: 60 idx: 40Loss : 0.45767370605142055
+epoch: 60 idx: 80Loss : 0.3910698356703474
+epoch: 60 idx: 120Loss : 0.4471520721064604
+epoch: 60 idx: 160Loss : 0.3758875107339108
+epoch: 60 idx: 200Loss : 0.3204329273561194
+train_loss_0 0.29987018299399143
+>>>>>>>>>>> Validation Epoch: 60
+  AUC 0.8948863744735718, recall 0.6363636363636364, F1 0.7567567567567568, precision 0.9333333333333333, acc 0.8333333333333334,confusion_matrix[[31  1]
+ [ 8 14]]
+ 
+no. 3 step stop_early
+epoch: 61 idx: 0Loss : 0.1397189050912857
+epoch: 61 idx: 40Loss : 0.2924912420460204
+epoch: 61 idx: 80Loss : 0.2762008526381994
+epoch: 61 idx: 120Loss : 0.2274611726808781
+epoch: 61 idx: 160Loss : 0.19251005699730198
+epoch: 61 idx: 200Loss : 0.17586033065630424
+train_loss_0 0.16467384606474464
+>>>>>>>>>>> Validation Epoch: 61
+  AUC 0.8863636255264282, recall 0.6818181818181818, F1 0.8108108108108109, precision 1.0, acc 0.8703703703703703,confusion_matrix[[32  0]
+ [ 7 15]]
+ 
+no. 4 step stop_early
+epoch: 62 idx: 0Loss : 0.12177719920873642
+epoch: 62 idx: 40Loss : 0.07962233776357253
+epoch: 62 idx: 80Loss : 0.07550728576789419
+epoch: 62 idx: 120Loss : 0.08745685107789375
+epoch: 62 idx: 160Loss : 0.07974410029014196
+epoch: 62 idx: 200Loss : 0.07107793512419738
+train_loss_0 0.06831261580341393
+>>>>>>>>>>> Validation Epoch: 62
+  AUC 0.8693181276321411, recall 0.5909090909090909, F1 0.7428571428571429, precision 1.0, acc 0.8333333333333334,confusion_matrix[[32  0]
+ [ 9 13]]
+ 
+no. 5 step stop_early
+epoch: 63 idx: 0Loss : 0.03352980688214302
+epoch: 63 idx: 40Loss : 0.029261240556058134
+epoch: 63 idx: 80Loss : 0.049415741146638326
+epoch: 63 idx: 120Loss : 0.045952436593940875
+epoch: 63 idx: 160Loss : 0.038964596478361965
+epoch: 63 idx: 200Loss : 0.037323208030858854
+train_loss_0 0.03631421714601069
+>>>>>>>>>>> Validation Epoch: 63
+  AUC 0.8622159361839294, recall 0.6818181818181818, F1 0.8108108108108109, precision 1.0, acc 0.8703703703703703,confusion_matrix[[32  0]
+ [ 7 15]]
+ 
+no. 6 step stop_early
+epoch: 64 idx: 0Loss : 1.4185804502631072e-05
+epoch: 64 idx: 40Loss : 0.02745262137332469
+epoch: 64 idx: 80Loss : 0.01964105064498757
+epoch: 64 idx: 120Loss : 0.018407001556913924
+epoch: 64 idx: 160Loss : 0.01715674619464742
+epoch: 64 idx: 200Loss : 0.017418783329191213
+train_loss_0 0.017606231263233175
+>>>>>>>>>>> Validation Epoch: 64
+  AUC 0.8977272510528564, recall 0.7272727272727273, F1 0.8421052631578948, precision 1.0, acc 0.8888888888888888,confusion_matrix[[32  0]
+ [ 6 16]]
+ 
+no. 7 step stop_early
+epoch: 65 idx: 0Loss : 0.0013769917422905564
+epoch: 65 idx: 40Loss : 0.014135857790101798
+epoch: 65 idx: 80Loss : 0.012039026592497571
+epoch: 65 idx: 120Loss : 0.01300251371176313
+epoch: 65 idx: 160Loss : 0.012283939568939709
+epoch: 65 idx: 200Loss : 0.012104250516888987
+train_loss_0 0.012841521581909198
+>>>>>>>>>>> Validation Epoch: 65
+  AUC 0.9034091234207153, recall 0.7272727272727273, F1 0.8421052631578948, precision 1.0, acc 0.8888888888888888,confusion_matrix[[32  0]
+ [ 6 16]]
+ 
+no. 8 step stop_early
+epoch: 66 idx: 0Loss : 0.0012407946633175015
+epoch: 66 idx: 40Loss : 0.025947471829567803
+epoch: 66 idx: 80Loss : 0.01984053006444689
+epoch: 66 idx: 120Loss : 0.023839114964712815
+epoch: 66 idx: 160Loss : 0.020900069053306138
+epoch: 66 idx: 200Loss : 0.019646976129422563
+train_loss_0 0.01943666176917212
+>>>>>>>>>>> Validation Epoch: 66
+  AUC 0.8650568723678589, recall 0.6818181818181818, F1 0.7894736842105263, precision 0.9375, acc 0.8518518518518519,confusion_matrix[[31  1]
+ [ 7 15]]
+ 
+no. 9 step stop_early
+epoch: 67 idx: 0Loss : 0.0017817826010286808
+epoch: 67 idx: 40Loss : 0.015774947657740908
+epoch: 67 idx: 80Loss : 0.011549891132800664
+epoch: 67 idx: 120Loss : 0.014535370253369529
+epoch: 67 idx: 160Loss : 0.012764919727288373
+epoch: 67 idx: 200Loss : 0.02075525626694549
+train_loss_0 0.020560129766831733
+>>>>>>>>>>> Validation Epoch: 67
+  AUC 0.859375, recall 0.7272727272727273, F1 0.8421052631578948, precision 1.0, acc 0.8888888888888888,confusion_matrix[[32  0]
+ [ 6 16]]
+ 
+no. 10 step stop_early
+epoch: 68 idx: 0Loss : 0.008276332169771194
+epoch: 68 idx: 40Loss : 0.03342823277542754
+epoch: 68 idx: 80Loss : 0.03157047660235189
+epoch: 68 idx: 120Loss : 0.028670358177677713
+epoch: 68 idx: 160Loss : 0.02400446643990647
+epoch: 68 idx: 200Loss : 0.021193759259642647
+train_loss_0 0.02039745722010431
+>>>>>>>>>>> Validation Epoch: 68
+  AUC 0.8579545617103577, recall 0.7272727272727273, F1 0.8421052631578948, precision 1.0, acc 0.8888888888888888,confusion_matrix[[32  0]
+ [ 6 16]]
+ 
+no. 11 step stop_early
+epoch: 69 idx: 0Loss : 2.098061486321967e-05
+epoch: 69 idx: 40Loss : 0.0096127785656746
+epoch: 69 idx: 80Loss : 0.007348445495438227
+epoch: 69 idx: 120Loss : 0.011430622859837813
+epoch: 69 idx: 160Loss : 0.010583243904371329
+epoch: 69 idx: 200Loss : 0.009815525988610945
+train_loss_0 0.009605549504866764
+>>>>>>>>>>> Validation Epoch: 69
+  AUC 0.8565341234207153, recall 0.7272727272727273, F1 0.8421052631578948, precision 1.0, acc 0.8888888888888888,confusion_matrix[[32  0]
+ [ 6 16]]
+ 
+no. 12 step stop_early
+epoch: 70 idx: 0Loss : 0.43588051199913025
+epoch: 70 idx: 40Loss : 0.024165406778847952
+epoch: 70 idx: 80Loss : 0.017572448856461885
+epoch: 70 idx: 120Loss : 0.015123022909693203
+epoch: 70 idx: 160Loss : 0.012862767867321061
+epoch: 70 idx: 200Loss : 0.01141829766448145
+train_loss_0 0.011441548560303142
+>>>>>>>>>>> Validation Epoch: 70
+  AUC 0.8806818127632141, recall 0.7272727272727273, F1 0.8205128205128205, precision 0.9411764705882353, acc 0.8703703703703703,confusion_matrix[[31  1]
+ [ 6 16]]
+ 
+no. 13 step stop_early
+epoch: 71 idx: 0Loss : 1.4066597032069694e-05
+epoch: 71 idx: 40Loss : 0.0036898286683625463
+epoch: 71 idx: 80Loss : 0.005066848953855062
+epoch: 71 idx: 120Loss : 0.031164159992494965
+epoch: 71 idx: 160Loss : 0.05578529670272259
+epoch: 71 idx: 200Loss : 0.05546919621395938
+train_loss_0 0.05230206860969028
+>>>>>>>>>>> Validation Epoch: 71
+  AUC 0.8707386255264282, recall 0.6818181818181818, F1 0.7692307692307693, precision 0.8823529411764706, acc 0.8333333333333334,confusion_matrix[[30  2]
+ [ 7 15]]
+ 
+no. 14 step stop_early
+epoch: 72 idx: 0Loss : 0.9605842232704163
+epoch: 72 idx: 40Loss : 0.29007606096465455
+epoch: 72 idx: 80Loss : 0.32660935947329384
+epoch: 72 idx: 120Loss : 0.26915103136392765
+epoch: 72 idx: 160Loss : 0.25890758096226213
+epoch: 72 idx: 200Loss : 0.23260932795128111
+train_loss_0 0.228495424337706
+>>>>>>>>>>> Validation Epoch: 72
+  AUC 0.9105113744735718, recall 0.5909090909090909, F1 0.7428571428571429, precision 1.0, acc 0.8333333333333334,confusion_matrix[[32  0]
+ [ 9 13]]
+ 
+no. 15 step stop_early
+epoch: 73 idx: 0Loss : 0.17634020745754242
+epoch: 73 idx: 40Loss : 0.18570420139196092
+epoch: 73 idx: 80Loss : 0.17089246735525376
+epoch: 73 idx: 120Loss : 0.14163935903295072
+epoch: 73 idx: 160Loss : 0.11619974395724826
+epoch: 73 idx: 200Loss : 0.09708129958887037
+train_loss_0 0.09546265836145705
+>>>>>>>>>>> Validation Epoch: 73
+  AUC 0.9303976893424988, recall 0.7272727272727273, F1 0.8205128205128205, precision 0.9411764705882353, acc 0.8703703703703703,confusion_matrix[[31  1]
+ [ 6 16]]
+ 
+epoch: 74 idx: 0Loss : 0.018169159069657326
+epoch: 74 idx: 40Loss : 0.02763041448802474
+epoch: 74 idx: 80Loss : 0.054695360826953116
+epoch: 74 idx: 120Loss : 0.04586057247110931
+epoch: 74 idx: 160Loss : 0.037985456000972355
+epoch: 74 idx: 200Loss : 0.033717980190895204
+train_loss_0 0.03328929741338837
+>>>>>>>>>>> Validation Epoch: 74
+  AUC 0.9119318127632141, recall 0.6363636363636364, F1 0.7777777777777778, precision 1.0, acc 0.8518518518518519,confusion_matrix[[32  0]
+ [ 8 14]]
+ 
+no. 1 step stop_early
+epoch: 75 idx: 0Loss : 0.6048986911773682
+epoch: 75 idx: 40Loss : 0.03268147074387099
+epoch: 75 idx: 80Loss : 0.03237539189836831
+epoch: 75 idx: 120Loss : 0.03041380373785315
+epoch: 75 idx: 160Loss : 0.025955019321913127
+epoch: 75 idx: 200Loss : 0.023359701534989393
+train_loss_0 0.02235041485423204
+>>>>>>>>>>> Validation Epoch: 75
+  AUC 0.9318182468414307, recall 0.7272727272727273, F1 0.8421052631578948, precision 1.0, acc 0.8888888888888888,confusion_matrix[[32  0]
+ [ 6 16]]
+ 
+epoch: 76 idx: 0Loss : 1.0013530300057027e-05
+epoch: 76 idx: 40Loss : 0.017939746918384073
+epoch: 76 idx: 80Loss : 0.013538714173507658
+epoch: 76 idx: 120Loss : 0.015790323131077665
+epoch: 76 idx: 160Loss : 0.014668989399115939
+epoch: 76 idx: 200Loss : 0.013145285728256937
+train_loss_0 0.013045954695000821
+>>>>>>>>>>> Validation Epoch: 76
+  AUC 0.9161931872367859, recall 0.7272727272727273, F1 0.8421052631578948, precision 1.0, acc 0.8888888888888888,confusion_matrix[[32  0]
+ [ 6 16]]
+ 
+no. 1 step stop_early
+epoch: 77 idx: 0Loss : 5.364403477869928e-06
+epoch: 77 idx: 40Loss : 0.006699264666389265
+epoch: 77 idx: 80Loss : 0.010209395556506635
+epoch: 77 idx: 120Loss : 0.010141163730748224
+epoch: 77 idx: 160Loss : 0.009189654078517823
+epoch: 77 idx: 200Loss : 0.008391378884857772
+train_loss_0 0.008241374861073483
+>>>>>>>>>>> Validation Epoch: 77
+  AUC 0.9119318723678589, recall 0.7272727272727273, F1 0.8421052631578948, precision 1.0, acc 0.8888888888888888,confusion_matrix[[32  0]
+ [ 6 16]]
+ 
+no. 2 step stop_early
+epoch: 78 idx: 0Loss : 3.933898824470816e-06
+epoch: 78 idx: 40Loss : 0.012266015985837507
+epoch: 78 idx: 80Loss : 0.011778188184715323
+epoch: 78 idx: 120Loss : 0.010706529866391814
+epoch: 78 idx: 160Loss : 0.009437139693120317
+epoch: 78 idx: 200Loss : 0.008439262706444036
+train_loss_0 0.008736742415858258
+>>>>>>>>>>> Validation Epoch: 78
+  AUC 0.9133523106575012, recall 0.7272727272727273, F1 0.8421052631578948, precision 1.0, acc 0.8888888888888888,confusion_matrix[[32  0]
+ [ 6 16]]
+ 
+no. 3 step stop_early
+epoch: 79 idx: 0Loss : 4.529942543740617e-06
+epoch: 79 idx: 40Loss : 0.006447632937623694
+epoch: 79 idx: 80Loss : 0.006590614029866181
+epoch: 79 idx: 120Loss : 0.006300505915400399
+epoch: 79 idx: 160Loss : 0.005700287999639408
+epoch: 79 idx: 200Loss : 0.005250594408047811
+train_loss_0 0.005237237189152954
+>>>>>>>>>>> Validation Epoch: 79
+  AUC 0.9034091234207153, recall 0.7272727272727273, F1 0.8421052631578948, precision 1.0, acc 0.8888888888888888,confusion_matrix[[32  0]
+ [ 6 16]]
+ 
+no. 4 step stop_early
+epoch: 80 idx: 0Loss : 2.861018856492592e-06
+epoch: 80 idx: 40Loss : 0.003252203931202619
+epoch: 80 idx: 80Loss : 0.003908226821918187
+epoch: 80 idx: 120Loss : 0.0039887675442803385
+epoch: 80 idx: 160Loss : 0.003859570192951618
+epoch: 80 idx: 200Loss : 0.0037069744647955836
+train_loss_0 0.003661113373499992
+>>>>>>>>>>> Validation Epoch: 80
+  AUC 0.9048295021057129, recall 0.7272727272727273, F1 0.8421052631578948, precision 1.0, acc 0.8888888888888888,confusion_matrix[[32  0]
+ [ 6 16]]
+ 
+no. 5 step stop_early
+epoch: 81 idx: 0Loss : 3.2186455882765586e-06
+epoch: 81 idx: 40Loss : 0.002837606641112249
+epoch: 81 idx: 80Loss : 0.003153505418272257
+epoch: 81 idx: 120Loss : 0.003101444174739023
+epoch: 81 idx: 160Loss : 0.004247749036519167
+epoch: 81 idx: 200Loss : 0.006744435352690221
+train_loss_0 0.007170627369870997
+>>>>>>>>>>> Validation Epoch: 81
+  AUC 0.8948863744735718, recall 0.7727272727272727, F1 0.85, precision 0.9444444444444444, acc 0.8888888888888888,confusion_matrix[[31  1]
+ [ 5 17]]
+ 
+no. 6 step stop_early
+epoch: 82 idx: 0Loss : 4.887569048150908e-06
+epoch: 82 idx: 40Loss : 0.006934448643134113
+epoch: 82 idx: 80Loss : 0.008709145071362754
+epoch: 82 idx: 120Loss : 0.009077055847999472
+epoch: 82 idx: 160Loss : 0.008593790259591377
+epoch: 82 idx: 200Loss : 0.008279470496501394
+train_loss_0 0.007984083375264494
+>>>>>>>>>>> Validation Epoch: 82
+  AUC 0.9147727489471436, recall 0.7727272727272727, F1 0.8717948717948718, precision 1.0, acc 0.9074074074074074,confusion_matrix[[32  0]
+ [ 5 17]]
+ 
+epoch: 83 idx: 0Loss : 4.160317621426657e-05
+epoch: 83 idx: 40Loss : 0.037813666532889416
+epoch: 83 idx: 80Loss : 0.02982178963661555
+epoch: 83 idx: 120Loss : 0.023162597443231667
+epoch: 83 idx: 160Loss : 0.019677714180241106
+epoch: 83 idx: 200Loss : 0.01671743110864176
+train_loss_0 0.015878685205126912
+>>>>>>>>>>> Validation Epoch: 83
+  AUC 0.8991477489471436, recall 0.7272727272727273, F1 0.8421052631578948, precision 1.0, acc 0.8888888888888888,confusion_matrix[[32  0]
+ [ 6 16]]
+ 
+no. 1 step stop_early
+epoch: 84 idx: 0Loss : 0.00015138434537220746
+epoch: 84 idx: 40Loss : 0.07099310065678964
+epoch: 84 idx: 80Loss : 0.26894285098748677
+epoch: 84 idx: 120Loss : 0.40868398719433374
+epoch: 84 idx: 160Loss : 0.36863072152496673
+epoch: 84 idx: 200Loss : 0.3175816962445047
+train_loss_0 0.2974782463841813
+>>>>>>>>>>> Validation Epoch: 84
+  AUC 0.8295454382896423, recall 0.45454545454545453, F1 0.625, precision 1.0, acc 0.7777777777777778,confusion_matrix[[32  0]
+ [12 10]]
+ 
+no. 2 step stop_early
+epoch: 85 idx: 0Loss : 0.018940307199954987
+epoch: 85 idx: 40Loss : 0.1407455971901782
+epoch: 85 idx: 80Loss : 0.12849805601495007
+epoch: 85 idx: 120Loss : 0.11578944504053051
+epoch: 85 idx: 160Loss : 0.10628979994194394
+epoch: 85 idx: 200Loss : 0.11372774364906774
+train_loss_0 0.10816460819369957
+>>>>>>>>>>> Validation Epoch: 85
+  AUC 0.8977272510528564, recall 0.6363636363636364, F1 0.7567567567567568, precision 0.9333333333333333, acc 0.8333333333333334,confusion_matrix[[31  1]
+ [ 8 14]]
+ 
+no. 3 step stop_early
+epoch: 86 idx: 0Loss : 0.01779893785715103
+epoch: 86 idx: 40Loss : 0.040654453356670804
+epoch: 86 idx: 80Loss : 0.038763926361380326
+epoch: 86 idx: 120Loss : 0.041688106351717706
+epoch: 86 idx: 160Loss : 0.03760560193549605
+epoch: 86 idx: 200Loss : 0.03782998984709155
+train_loss_0 0.03586019520041125
+>>>>>>>>>>> Validation Epoch: 86
+  AUC 0.8636363744735718, recall 0.7272727272727273, F1 0.8205128205128205, precision 0.9411764705882353, acc 0.8703703703703703,confusion_matrix[[31  1]
+ [ 6 16]]
+ 
+no. 4 step stop_early
+epoch: 87 idx: 0Loss : 0.00014172980445437133
+epoch: 87 idx: 40Loss : 0.01980745153938054
+epoch: 87 idx: 80Loss : 0.018623298040960502
+epoch: 87 idx: 120Loss : 0.02339266915606404
+epoch: 87 idx: 160Loss : 0.019405408840707607
+epoch: 87 idx: 200Loss : 0.0177634166554944
+train_loss_0 0.018024717074084415
+>>>>>>>>>>> Validation Epoch: 87
+  AUC 0.8977273106575012, recall 0.7272727272727273, F1 0.8205128205128205, precision 0.9411764705882353, acc 0.8703703703703703,confusion_matrix[[31  1]
+ [ 6 16]]
+ 
+no. 5 step stop_early
+epoch: 88 idx: 0Loss : 0.00022980909852776676
+epoch: 88 idx: 40Loss : 0.024680276330012175
+epoch: 88 idx: 80Loss : 0.019444766038349718
+epoch: 88 idx: 120Loss : 0.019223310731879977
+epoch: 88 idx: 160Loss : 0.018173894147182686
+epoch: 88 idx: 200Loss : 0.017222161658706773
+train_loss_0 0.016487973230395855
+>>>>>>>>>>> Validation Epoch: 88
+  AUC 0.9076704382896423, recall 0.7727272727272727, F1 0.85, precision 0.9444444444444444, acc 0.8888888888888888,confusion_matrix[[31  1]
+ [ 5 17]]
+ 
+no. 6 step stop_early
+epoch: 89 idx: 0Loss : 0.00025555206229910254
+epoch: 89 idx: 40Loss : 0.008833648062488642
+epoch: 89 idx: 80Loss : 0.015565118781598167
+epoch: 89 idx: 120Loss : 0.015534693327806158
+epoch: 89 idx: 160Loss : 0.012852654924514621
+epoch: 89 idx: 200Loss : 0.011614774515342504
+train_loss_0 0.011249833602811657
+>>>>>>>>>>> Validation Epoch: 89
+  AUC 0.8977273106575012, recall 0.8181818181818182, F1 0.8780487804878049, precision 0.9473684210526315, acc 0.9074074074074074,confusion_matrix[[31  1]
+ [ 4 18]]
+ 
+no. 7 step stop_early
+epoch: 90 idx: 0Loss : 2.4437606043647975e-05
+epoch: 90 idx: 40Loss : 0.007762619003609338
+epoch: 90 idx: 80Loss : 0.007540111069733995
+epoch: 90 idx: 120Loss : 0.007286864803309674
+epoch: 90 idx: 160Loss : 0.006794274954806005
+epoch: 90 idx: 200Loss : 0.00606904655341512
+train_loss_0 0.005857306473199354
+>>>>>>>>>>> Validation Epoch: 90
+  AUC 0.8977272510528564, recall 0.8181818181818182, F1 0.8780487804878049, precision 0.9473684210526315, acc 0.9074074074074074,confusion_matrix[[31  1]
+ [ 4 18]]
+ 
+no. 8 step stop_early
+epoch: 91 idx: 0Loss : 1.7762025890988298e-05
+epoch: 91 idx: 40Loss : 0.00382800406445002
+epoch: 91 idx: 80Loss : 0.004711387805883409
+epoch: 91 idx: 120Loss : 0.005596107834511361
+epoch: 91 idx: 160Loss : 0.005137496645803571
+epoch: 91 idx: 200Loss : 0.004701011710572093
+train_loss_0 0.004605256441205631
+>>>>>>>>>>> Validation Epoch: 91
+  AUC 0.9019886255264282, recall 0.8181818181818182, F1 0.8372093023255814, precision 0.8571428571428571, acc 0.8703703703703703,confusion_matrix[[29  3]
+ [ 4 18]]
+ 
+no. 9 step stop_early
+epoch: 92 idx: 0Loss : 1.0847986231965479e-05
+epoch: 92 idx: 40Loss : 0.0033874774123471693
+epoch: 92 idx: 80Loss : 0.003964038323176653
+epoch: 92 idx: 120Loss : 0.0035836579702935682
+epoch: 92 idx: 160Loss : 0.003292128138052887
+epoch: 92 idx: 200Loss : 0.0031871276322086957
+train_loss_0 0.0031544387391896317
+>>>>>>>>>>> Validation Epoch: 92
+  AUC 0.9019886255264282, recall 0.8181818181818182, F1 0.8372093023255814, precision 0.8571428571428571, acc 0.8703703703703703,confusion_matrix[[29  3]
+ [ 4 18]]
+ 
+no. 10 step stop_early
+epoch: 93 idx: 0Loss : 6.198863957251888e-06
+epoch: 93 idx: 40Loss : 0.002687219176539479
+epoch: 93 idx: 80Loss : 0.002863510734585608
+epoch: 93 idx: 120Loss : 0.0028194200723306523
+epoch: 93 idx: 160Loss : 0.002686581587197353
+epoch: 93 idx: 200Loss : 0.0025912378315733893
+train_loss_0 0.00259880888665028
+>>>>>>>>>>> Validation Epoch: 93
+  AUC 0.9076704978942871, recall 0.8181818181818182, F1 0.8372093023255814, precision 0.8571428571428571, acc 0.8703703703703703,confusion_matrix[[29  3]
+ [ 4 18]]
+ 
+no. 11 step stop_early
+epoch: 94 idx: 0Loss : 3.933898824470816e-06
+epoch: 94 idx: 40Loss : 0.0022597179998051506
+epoch: 94 idx: 80Loss : 0.0024989464191374866
+epoch: 94 idx: 120Loss : 0.0024658298032624944
+epoch: 94 idx: 160Loss : 0.0023559243228680558
+epoch: 94 idx: 200Loss : 0.002294097923057016
+train_loss_0 0.0023256459639471646
+>>>>>>>>>>> Validation Epoch: 94
+  AUC 0.9005681872367859, recall 0.8181818181818182, F1 0.8372093023255814, precision 0.8571428571428571, acc 0.8703703703703703,confusion_matrix[[29  3]
+ [ 4 18]]
+ 
+no. 12 step stop_early
+epoch: 95 idx: 0Loss : 3.099436753473128e-06
+epoch: 95 idx: 40Loss : 0.0017441722944324016
+epoch: 95 idx: 80Loss : 0.0021190782461495855
+epoch: 95 idx: 120Loss : 0.0020666745963802244
+epoch: 95 idx: 160Loss : 0.002003537343525347
+epoch: 95 idx: 200Loss : 0.0019437628427679396
+train_loss_0 0.00196204476656408
+>>>>>>>>>>> Validation Epoch: 95
+  AUC 0.9034091234207153, recall 0.8181818181818182, F1 0.8372093023255814, precision 0.8571428571428571, acc 0.8703703703703703,confusion_matrix[[29  3]
+ [ 4 18]]
+ 
+no. 13 step stop_early
+epoch: 96 idx: 0Loss : 0.01566403917968273
+epoch: 96 idx: 40Loss : 0.34093973006354494
+epoch: 96 idx: 80Loss : 0.26666518900625497
+epoch: 96 idx: 120Loss : 0.24574692820379482
+epoch: 96 idx: 160Loss : 0.23397549768428974
+epoch: 96 idx: 200Loss : 0.19868756628934264
+train_loss_0 0.1878510336921116
+>>>>>>>>>>> Validation Epoch: 96
+  AUC 0.8877840638160706, recall 0.5909090909090909, F1 0.7027027027027029, precision 0.8666666666666667, acc 0.7962962962962963,confusion_matrix[[30  2]
+ [ 9 13]]
+ 
+no. 14 step stop_early
+epoch: 97 idx: 0Loss : 0.00990204606205225
+epoch: 97 idx: 40Loss : 0.10869290981479092
+epoch: 97 idx: 80Loss : 0.12378864986302854
+epoch: 97 idx: 120Loss : 0.16127400717610407
+epoch: 97 idx: 160Loss : 0.12972249263375016
+epoch: 97 idx: 200Loss : 0.11714190803827515
+train_loss_0 0.10983807268602248
+>>>>>>>>>>> Validation Epoch: 97
+  AUC 0.9147727489471436, recall 0.6363636363636364, F1 0.7777777777777778, precision 1.0, acc 0.8518518518518519,confusion_matrix[[32  0]
+ [ 8 14]]
+ 
+no. 15 step stop_early
+epoch: 98 idx: 0Loss : 0.00038425691309385
+epoch: 98 idx: 40Loss : 0.022310341526318975
+epoch: 98 idx: 80Loss : 0.05875253909121116
+epoch: 98 idx: 120Loss : 0.08346179142876593
+epoch: 98 idx: 160Loss : 0.06526631908360421
+epoch: 98 idx: 200Loss : 0.05711774424407713
+train_loss_0 0.05354674684231718
+>>>>>>>>>>> Validation Epoch: 98
+  AUC 0.9105113744735718, recall 0.5909090909090909, F1 0.7428571428571429, precision 1.0, acc 0.8333333333333334,confusion_matrix[[32  0]
+ [ 9 13]]
+ 
+no. 16 step stop_early
+epoch: 99 idx: 0Loss : 0.008531196042895317
+epoch: 99 idx: 40Loss : 0.013572397489641423
+epoch: 99 idx: 80Loss : 0.017924654712118477
+epoch: 99 idx: 120Loss : 0.018002567056203168
+epoch: 99 idx: 160Loss : 0.020969678096953978
+epoch: 99 idx: 200Loss : 0.020478613223158512
+train_loss_0 0.01921436310313874
+>>>>>>>>>>> Validation Epoch: 99
+  AUC 0.917613685131073, recall 0.5454545454545454, F1 0.7058823529411764, precision 1.0, acc 0.8148148148148148,confusion_matrix[[32  0]
+ [10 12]]
+ 
+no. 17 step stop_early
+epoch: 100 idx: 0Loss : 0.18780635297298431
+epoch: 100 idx: 40Loss : 0.019913578728125974
+epoch: 100 idx: 80Loss : 0.04270818169237381
+epoch: 100 idx: 120Loss : 0.03527626955427318
+epoch: 100 idx: 160Loss : 0.02765594672593559
+epoch: 100 idx: 200Loss : 0.023956865435457685
+train_loss_0 0.023002651686803516
+>>>>>>>>>>> Validation Epoch: 100
+  AUC 0.9190340638160706, recall 0.8636363636363636, F1 0.9047619047619048, precision 0.95, acc 0.9259259259259259,confusion_matrix[[31  1]
+ [ 3 19]]
+ 
+epoch: 101 idx: 0Loss : 0.003024767152965069
+epoch: 101 idx: 40Loss : 0.007179263407146564
+epoch: 101 idx: 80Loss : 0.014458513152504354
+epoch: 101 idx: 120Loss : 0.012774631984140588
+epoch: 101 idx: 160Loss : 0.010607970631651057
+epoch: 101 idx: 200Loss : 0.010031817629054775
+train_loss_0 0.010031916922249938
+>>>>>>>>>>> Validation Epoch: 101
+  AUC 0.9161931276321411, recall 0.8636363636363636, F1 0.8837209302325582, precision 0.9047619047619048, acc 0.9074074074074074,confusion_matrix[[30  2]
+ [ 3 19]]
+ 
+no. 1 step stop_early
+epoch: 102 idx: 0Loss : 0.0024207117967307568
+epoch: 102 idx: 40Loss : 0.006644421092415741
+epoch: 102 idx: 80Loss : 0.008771704111445022
+epoch: 102 idx: 120Loss : 0.007774234542364904
+epoch: 102 idx: 160Loss : 0.006712128835698138
+epoch: 102 idx: 200Loss : 0.006857841989847669
+train_loss_0 0.0069772097314840425
+>>>>>>>>>>> Validation Epoch: 102
+  AUC 0.9176136255264282, recall 0.8636363636363636, F1 0.8837209302325582, precision 0.9047619047619048, acc 0.9074074074074074,confusion_matrix[[30  2]
+ [ 3 19]]
+ 
+no. 2 step stop_early
+epoch: 103 idx: 0Loss : 0.0016642066184431314
+epoch: 103 idx: 40Loss : 0.0061928364787202485
+epoch: 103 idx: 80Loss : 0.005826171692795516
+epoch: 103 idx: 120Loss : 0.005613917367975248
+epoch: 103 idx: 160Loss : 0.005015217632976633
+epoch: 103 idx: 200Loss : 0.005297722328251663
+train_loss_0 0.005437046857595586
+>>>>>>>>>>> Validation Epoch: 103
+  AUC 0.9090908765792847, recall 0.8181818181818182, F1 0.8780487804878049, precision 0.9473684210526315, acc 0.9074074074074074,confusion_matrix[[31  1]
+ [ 4 18]]
+ 
+no. 3 step stop_early
+epoch: 104 idx: 0Loss : 0.0011185110779479146
+epoch: 104 idx: 40Loss : 0.005625163180123243
+epoch: 104 idx: 80Loss : 0.005194975953358581
+epoch: 104 idx: 120Loss : 0.005065957199247448
+epoch: 104 idx: 160Loss : 0.004528967210609478
+epoch: 104 idx: 200Loss : 0.004757040415462583
+train_loss_0 0.004877394952299906
+>>>>>>>>>>> Validation Epoch: 104
+  AUC 0.9090908765792847, recall 0.8181818181818182, F1 0.8780487804878049, precision 0.9473684210526315, acc 0.9074074074074074,confusion_matrix[[31  1]
+ [ 4 18]]
+ 
+no. 4 step stop_early
+epoch: 105 idx: 0Loss : 0.000753476400859654
+epoch: 105 idx: 40Loss : 0.0051913431012153306
+epoch: 105 idx: 80Loss : 0.004647916583154269
+epoch: 105 idx: 120Loss : 0.0045554841881553666
+epoch: 105 idx: 160Loss : 0.0040715262503516194
+epoch: 105 idx: 200Loss : 0.004190913822681537
+train_loss_0 0.004268901643863452
+>>>>>>>>>>> Validation Epoch: 105
+  AUC 0.9076704382896423, recall 0.8181818181818182, F1 0.8780487804878049, precision 0.9473684210526315, acc 0.9074074074074074,confusion_matrix[[31  1]
+ [ 4 18]]
+ 
+no. 5 step stop_early
+epoch: 106 idx: 0Loss : 0.000530936405993998
+epoch: 106 idx: 40Loss : 0.004798036401841339
+epoch: 106 idx: 80Loss : 0.0041552000412442185
+epoch: 106 idx: 120Loss : 0.004124251387389489
+epoch: 106 idx: 160Loss : 0.003710374260968101
+epoch: 106 idx: 200Loss : 0.0038035494305190343
+train_loss_0 0.0038667912709880645
+>>>>>>>>>>> Validation Epoch: 106
+  AUC 0.9076704382896423, recall 0.8181818181818182, F1 0.8571428571428572, precision 0.9, acc 0.8888888888888888,confusion_matrix[[30  2]
+ [ 4 18]]
+ 
+no. 6 step stop_early
+epoch: 107 idx: 0Loss : 0.00039498155820183456
+epoch: 107 idx: 40Loss : 0.004408697661136368
+epoch: 107 idx: 80Loss : 0.0038176137185232228
+epoch: 107 idx: 120Loss : 0.00377542106441867
+epoch: 107 idx: 160Loss : 0.0034106258940085604
+epoch: 107 idx: 200Loss : 0.003466300899395777
+train_loss_0 0.003520630360625229
+>>>>>>>>>>> Validation Epoch: 107
+  AUC 0.9076704382896423, recall 0.8181818181818182, F1 0.8571428571428572, precision 0.9, acc 0.8888888888888888,confusion_matrix[[30  2]
+ [ 4 18]]
+ 
+no. 7 step stop_early
+epoch: 108 idx: 0Loss : 0.28884121775627136
+epoch: 108 idx: 40Loss : 0.03900867820135406
+epoch: 108 idx: 80Loss : 0.04972708162852723
+epoch: 108 idx: 120Loss : 0.07936923686432722
+epoch: 108 idx: 160Loss : 0.06842693381792751
+epoch: 108 idx: 200Loss : 0.06613425753652492
+train_loss_0 0.06619996262176152
+>>>>>>>>>>> Validation Epoch: 108
+  AUC 0.9005681872367859, recall 0.7727272727272727, F1 0.8717948717948718, precision 1.0, acc 0.9074074074074074,confusion_matrix[[32  0]
+ [ 5 17]]
+ 
+no. 8 step stop_early
+epoch: 109 idx: 0Loss : 0.042259331792593
+epoch: 109 idx: 40Loss : 0.011358906583265663
+epoch: 109 idx: 80Loss : 0.017709277017771637
+epoch: 109 idx: 120Loss : 0.020795242804577105
+epoch: 109 idx: 160Loss : 0.018493275222985304
+epoch: 109 idx: 200Loss : 0.017446320884477676
+train_loss_0 0.01774351610719118
+>>>>>>>>>>> Validation Epoch: 109
+  AUC 0.9176136255264282, recall 0.8181818181818182, F1 0.8571428571428572, precision 0.9, acc 0.8888888888888888,confusion_matrix[[30  2]
+ [ 4 18]]
+ 
+no. 9 step stop_early
+epoch: 110 idx: 0Loss : 0.01859365776181221
+epoch: 110 idx: 40Loss : 0.009681441906783531
+epoch: 110 idx: 80Loss : 0.010327443183691797
+epoch: 110 idx: 120Loss : 0.011941634440046324
+epoch: 110 idx: 160Loss : 0.011028294319757492
+epoch: 110 idx: 200Loss : 0.010872277164394048
+train_loss_0 0.011279374653885402
+>>>>>>>>>>> Validation Epoch: 110
+  AUC 0.9147727489471436, recall 0.8181818181818182, F1 0.8571428571428572, precision 0.9, acc 0.8888888888888888,confusion_matrix[[30  2]
+ [ 4 18]]
+ 
+no. 10 step stop_early
+epoch: 111 idx: 0Loss : 0.018495477735996246
+epoch: 111 idx: 40Loss : 0.007612987079571722
+epoch: 111 idx: 80Loss : 0.012664236221351328
+epoch: 111 idx: 120Loss : 0.011992393165310877
+epoch: 111 idx: 160Loss : 0.011002885619968282
+epoch: 111 idx: 200Loss : 0.010647516152759905
+train_loss_0 0.010870944615460856
+>>>>>>>>>>> Validation Epoch: 111
+  AUC 0.9204545617103577, recall 0.8181818181818182, F1 0.8372093023255814, precision 0.8571428571428571, acc 0.8703703703703703,confusion_matrix[[29  3]
+ [ 4 18]]
+ 
+no. 11 step stop_early
+epoch: 112 idx: 0Loss : 0.016861766576766968
+epoch: 112 idx: 40Loss : 0.006501275074164945
+epoch: 112 idx: 80Loss : 0.007699831376984503
+epoch: 112 idx: 120Loss : 0.02240940500877486
+epoch: 112 idx: 160Loss : 0.023326542170369956
+epoch: 112 idx: 200Loss : 0.021078273525782683
+train_loss_0 0.0203105123505307
+>>>>>>>>>>> Validation Epoch: 112
+  AUC 0.9559659361839294, recall 0.8636363636363636, F1 0.9047619047619048, precision 0.95, acc 0.9259259259259259,confusion_matrix[[31  1]
+ [ 3 19]]
+ 
+epoch: 113 idx: 0Loss : 0.0063127875328063965
+epoch: 113 idx: 40Loss : 0.02280583924788871
+epoch: 113 idx: 80Loss : 0.014721915790385728
+epoch: 113 idx: 120Loss : 0.012217704905958303
+epoch: 113 idx: 160Loss : 0.010994180021820494
+epoch: 113 idx: 200Loss : 0.010468711919971544
+train_loss_0 0.010435806875635768
+>>>>>>>>>>> Validation Epoch: 113
+  AUC 0.964488685131073, recall 0.9090909090909091, F1 0.9090909090909091, precision 0.9090909090909091, acc 0.9259259259259259,confusion_matrix[[30  2]
+ [ 2 20]]
+ 
+epoch: 114 idx: 0Loss : 0.009447155520319939
+epoch: 114 idx: 40Loss : 0.005764862211834974
+epoch: 114 idx: 80Loss : 0.006062467245453577
+epoch: 114 idx: 120Loss : 0.006108485782408338
+epoch: 114 idx: 160Loss : 0.0057631829021407
+epoch: 114 idx: 200Loss : 0.008523465417863831
+train_loss_0 0.00869751816343367
+>>>>>>>>>>> Validation Epoch: 114
+  AUC 0.9630681872367859, recall 0.9090909090909091, F1 0.9090909090909091, precision 0.9090909090909091, acc 0.9259259259259259,confusion_matrix[[30  2]
+ [ 2 20]]
+ 
+no. 1 step stop_early
+epoch: 115 idx: 0Loss : 0.003613373264670372
+epoch: 115 idx: 40Loss : 0.005524185939332422
+epoch: 115 idx: 80Loss : 0.005513350008223729
+epoch: 115 idx: 120Loss : 0.005569859889056933
+epoch: 115 idx: 160Loss : 0.005221801460484046
+epoch: 115 idx: 200Loss : 0.005822205776501311
+train_loss_0 0.0067518591771731605
+>>>>>>>>>>> Validation Epoch: 115
+  AUC 0.9588068127632141, recall 0.8636363636363636, F1 0.9268292682926829, precision 1.0, acc 0.9444444444444444,confusion_matrix[[32  0]
+ [ 3 19]]
+ 
+epoch: 116 idx: 0Loss : 0.0070414007641375065
+epoch: 116 idx: 40Loss : 0.005069369046662071
+epoch: 116 idx: 80Loss : 0.0048049681851757165
+epoch: 116 idx: 120Loss : 0.004823071223907998
+epoch: 116 idx: 160Loss : 0.005080255196520229
+epoch: 116 idx: 200Loss : 0.005385318157412917
+train_loss_0 0.005441655831768633
+>>>>>>>>>>> Validation Epoch: 116
+  AUC 0.9644886255264282, recall 0.8636363636363636, F1 0.9268292682926829, precision 1.0, acc 0.9444444444444444,confusion_matrix[[32  0]
+ [ 3 19]]
+ 
+epoch: 117 idx: 0Loss : 0.008555072359740734
+epoch: 117 idx: 40Loss : 0.004265106532019251
+epoch: 117 idx: 80Loss : 0.004191153335656464
+epoch: 117 idx: 120Loss : 0.004238688891412734
+epoch: 117 idx: 160Loss : 0.004202180171147248
+epoch: 117 idx: 200Loss : 0.004343157307424441
+train_loss_0 0.004450689985499344
+>>>>>>>>>>> Validation Epoch: 117
+  AUC 0.9602272510528564, recall 0.8636363636363636, F1 0.9268292682926829, precision 1.0, acc 0.9444444444444444,confusion_matrix[[32  0]
+ [ 3 19]]
+ 
+no. 1 step stop_early
+epoch: 118 idx: 0Loss : 0.009802891872823238
+epoch: 118 idx: 40Loss : 0.004262007272922258
+epoch: 118 idx: 80Loss : 0.0037568838294774836
+epoch: 118 idx: 120Loss : 0.003658079352668447
+epoch: 118 idx: 160Loss : 0.003508941707561223
+epoch: 118 idx: 200Loss : 0.003647734943651087
+train_loss_0 0.003757955863536144
+>>>>>>>>>>> Validation Epoch: 118
+  AUC 0.9602272510528564, recall 0.8636363636363636, F1 0.9268292682926829, precision 1.0, acc 0.9444444444444444,confusion_matrix[[32  0]
+ [ 3 19]]
+ 
+no. 2 step stop_early
+epoch: 119 idx: 0Loss : 0.010193195194005966
+epoch: 119 idx: 40Loss : 0.0038749452341573665
+epoch: 119 idx: 80Loss : 0.0035580950945139638
+epoch: 119 idx: 120Loss : 0.003409532236840788
+epoch: 119 idx: 160Loss : 0.003165160765113797
+epoch: 119 idx: 200Loss : 0.0032422708233430676
+train_loss_0 0.0033386962681324554
+>>>>>>>>>>> Validation Epoch: 119
+  AUC 0.9559658765792847, recall 0.8636363636363636, F1 0.9268292682926829, precision 1.0, acc 0.9444444444444444,confusion_matrix[[32  0]
+ [ 3 19]]
+ 
+no. 3 step stop_early
+epoch: 120 idx: 0Loss : 0.01839401200413704
+epoch: 120 idx: 40Loss : 0.050854189786749465
+epoch: 120 idx: 80Loss : 0.0504391586753617
+epoch: 120 idx: 120Loss : 0.06717768904170582
+epoch: 120 idx: 160Loss : 0.05638286174437494
+epoch: 120 idx: 200Loss : 0.049879054472297644
+train_loss_0 0.04782383188446637
+>>>>>>>>>>> Validation Epoch: 120
+  AUC 0.8991477489471436, recall 0.7272727272727273, F1 0.8205128205128205, precision 0.9411764705882353, acc 0.8703703703703703,confusion_matrix[[31  1]
+ [ 6 16]]
+ 
+no. 4 step stop_early
+epoch: 121 idx: 0Loss : 0.02483132854104042
+epoch: 121 idx: 40Loss : 0.021018233090816043
+epoch: 121 idx: 80Loss : 0.023567184888163888
+epoch: 121 idx: 120Loss : 0.023785979835581714
+epoch: 121 idx: 160Loss : 0.024001630254704746
+epoch: 121 idx: 200Loss : 0.02226576672783052
+train_loss_0 0.022152907637814363
+>>>>>>>>>>> Validation Epoch: 121
+  AUC 0.8693181276321411, recall 0.7727272727272727, F1 0.7727272727272727, precision 0.7727272727272727, acc 0.8148148148148148,confusion_matrix[[27  5]
+ [ 5 17]]
+ 
+no. 5 step stop_early
+epoch: 122 idx: 0Loss : 0.012618227861821651
+epoch: 122 idx: 40Loss : 0.007938795736551844
+epoch: 122 idx: 80Loss : 0.019863630337313493
+epoch: 122 idx: 120Loss : 0.017038781648928254
+epoch: 122 idx: 160Loss : 0.014924053391745271
+epoch: 122 idx: 200Loss : 0.013696111949029945
+train_loss_0 0.013681342750745831
+>>>>>>>>>>> Validation Epoch: 122
+  AUC 0.8892045021057129, recall 0.8181818181818182, F1 0.8, precision 0.782608695652174, acc 0.8333333333333334,confusion_matrix[[27  5]
+ [ 4 18]]
+ 
+no. 6 step stop_early
+epoch: 123 idx: 0Loss : 0.0033661627676337957
+epoch: 123 idx: 40Loss : 0.008508562552729628
+epoch: 123 idx: 80Loss : 0.007699604824514353
+epoch: 123 idx: 120Loss : 0.008247892796100869
+epoch: 123 idx: 160Loss : 0.007702082557334858
+epoch: 123 idx: 200Loss : 0.007562227729154174
+train_loss_0 0.007799518423288533
+>>>>>>>>>>> Validation Epoch: 123
+  AUC 0.8877841234207153, recall 0.8181818181818182, F1 0.8, precision 0.782608695652174, acc 0.8333333333333334,confusion_matrix[[27  5]
+ [ 4 18]]
+ 
+no. 7 step stop_early
+epoch: 124 idx: 0Loss : 0.003159176791086793
+epoch: 124 idx: 40Loss : 0.0068075047454870885
+epoch: 124 idx: 80Loss : 0.00613480002857719
+epoch: 124 idx: 120Loss : 0.006522929602183448
+epoch: 124 idx: 160Loss : 0.006223616018489765
+epoch: 124 idx: 200Loss : 0.006100217705905852
+train_loss_0 0.006292886010557092
+>>>>>>>>>>> Validation Epoch: 124
+  AUC 0.8920454382896423, recall 0.8181818181818182, F1 0.8, precision 0.782608695652174, acc 0.8333333333333334,confusion_matrix[[27  5]
+ [ 4 18]]
+ 
+no. 8 step stop_early
+epoch: 125 idx: 0Loss : 0.002575772814452648
+epoch: 125 idx: 40Loss : 0.0057820268813382585
+epoch: 125 idx: 80Loss : 0.0052896231120586786
+epoch: 125 idx: 120Loss : 0.005285541921984272
+epoch: 125 idx: 160Loss : 0.00506611219132591
+epoch: 125 idx: 200Loss : 0.005015590443173069
+train_loss_0 0.005152499530539061
+>>>>>>>>>>> Validation Epoch: 125
+  AUC 0.890625, recall 0.8181818181818182, F1 0.8181818181818182, precision 0.8181818181818182, acc 0.8518518518518519,confusion_matrix[[28  4]
+ [ 4 18]]
+ 
+no. 9 step stop_early
+epoch: 126 idx: 0Loss : 0.002599077532067895
+epoch: 126 idx: 40Loss : 0.006534686570065193
+epoch: 126 idx: 80Loss : 0.0052997363633795974
+epoch: 126 idx: 120Loss : 0.005022404307531699
+epoch: 126 idx: 160Loss : 0.004742730181218769
+epoch: 126 idx: 200Loss : 0.004660206376971754
+train_loss_0 0.00474050446179826
+>>>>>>>>>>> Validation Epoch: 126
+  AUC 0.9147727489471436, recall 0.8181818181818182, F1 0.8372093023255814, precision 0.8571428571428571, acc 0.8703703703703703,confusion_matrix[[29  3]
+ [ 4 18]]
+ 
+no. 10 step stop_early
+epoch: 127 idx: 0Loss : 0.00295048370026052
+epoch: 127 idx: 40Loss : 0.0057806096226667315
+epoch: 127 idx: 80Loss : 0.004887262669324643
+epoch: 127 idx: 120Loss : 0.004498542392474068
+epoch: 127 idx: 160Loss : 0.004333137819903071
+epoch: 127 idx: 200Loss : 0.004374747019139326
+train_loss_0 0.004364827259183766
+>>>>>>>>>>> Validation Epoch: 127
+  AUC 0.9161931276321411, recall 0.8181818181818182, F1 0.8181818181818182, precision 0.8181818181818182, acc 0.8518518518518519,confusion_matrix[[28  4]
+ [ 4 18]]
+ 
+no. 11 step stop_early
+epoch: 128 idx: 0Loss : 0.0026811149436980486
+epoch: 128 idx: 40Loss : 0.004694323348746925
+epoch: 128 idx: 80Loss : 0.004011554046719648
+epoch: 128 idx: 120Loss : 0.0037477743802638262
+epoch: 128 idx: 160Loss : 0.003564960804268935
+epoch: 128 idx: 200Loss : 0.003610328169001853
+train_loss_0 0.003632643064043987
+>>>>>>>>>>> Validation Epoch: 128
+  AUC 0.9232954382896423, recall 0.8181818181818182, F1 0.8181818181818182, precision 0.8181818181818182, acc 0.8518518518518519,confusion_matrix[[28  4]
+ [ 4 18]]
+ 
+no. 12 step stop_early
+epoch: 129 idx: 0Loss : 0.002730690874159336
+epoch: 129 idx: 40Loss : 0.0035946818577095897
+epoch: 129 idx: 80Loss : 0.003277056174248467
+epoch: 129 idx: 120Loss : 0.00346532453318733
+epoch: 129 idx: 160Loss : 0.0037021686838200913
+epoch: 129 idx: 200Loss : 0.003706094761711006
+train_loss_0 0.0036706734202178737
+>>>>>>>>>>> Validation Epoch: 129
+  AUC 0.9105113744735718, recall 0.8181818181818182, F1 0.8181818181818182, precision 0.8181818181818182, acc 0.8518518518518519,confusion_matrix[[28  4]
+ [ 4 18]]
+ 
+no. 13 step stop_early
+epoch: 130 idx: 0Loss : 0.0023240242153406143
+epoch: 130 idx: 40Loss : 0.003181783391427265
+epoch: 130 idx: 80Loss : 0.0035326773761733036
+epoch: 130 idx: 120Loss : 0.00378525078706175
+epoch: 130 idx: 160Loss : 0.0038081678879352135
+epoch: 130 idx: 200Loss : 0.0037361947593559782
+train_loss_0 0.00388182173441253
+>>>>>>>>>>> Validation Epoch: 130
+  AUC 0.9232954382896423, recall 0.8181818181818182, F1 0.8181818181818182, precision 0.8181818181818182, acc 0.8518518518518519,confusion_matrix[[28  4]
+ [ 4 18]]
+ 
+no. 14 step stop_early
+epoch: 131 idx: 0Loss : 0.0021842687856405973
+epoch: 131 idx: 40Loss : 0.0028956255663526863
+epoch: 131 idx: 80Loss : 0.0029716262466770527
+epoch: 131 idx: 120Loss : 0.003067359077159399
+epoch: 131 idx: 160Loss : 0.003091215220439054
+epoch: 131 idx: 200Loss : 0.0031206215409547685
+train_loss_0 0.0031124917599020785
+>>>>>>>>>>> Validation Epoch: 131
+  AUC 0.9133522510528564, recall 0.8181818181818182, F1 0.8181818181818182, precision 0.8181818181818182, acc 0.8518518518518519,confusion_matrix[[28  4]
+ [ 4 18]]
+ 
+no. 15 step stop_early
+epoch: 132 idx: 0Loss : 0.0029154198709875345
+epoch: 132 idx: 40Loss : 0.06884042706800335
+epoch: 132 idx: 80Loss : 0.10653369574969603
+epoch: 132 idx: 120Loss : 0.1316677637008638
+epoch: 132 idx: 160Loss : 0.11349857000317846
+epoch: 132 idx: 200Loss : 0.09891432067196632
+train_loss_0 0.09486837369285551
+>>>>>>>>>>> Validation Epoch: 132
+  AUC 0.8963068127632141, recall 0.8181818181818182, F1 0.8, precision 0.782608695652174, acc 0.8333333333333334,confusion_matrix[[27  5]
+ [ 4 18]]
+ 
+no. 16 step stop_early
+epoch: 133 idx: 0Loss : 0.0013549680588766932
+epoch: 133 idx: 40Loss : 0.060870028508638714
+epoch: 133 idx: 80Loss : 0.042413119159072546
+epoch: 133 idx: 120Loss : 0.03911750157696858
+epoch: 133 idx: 160Loss : 0.03192525426204317
+epoch: 133 idx: 200Loss : 0.029097130675448765
+train_loss_0 0.02782640107140055
+>>>>>>>>>>> Validation Epoch: 133
+  AUC 0.8934658765792847, recall 0.8181818181818182, F1 0.8, precision 0.782608695652174, acc 0.8333333333333334,confusion_matrix[[27  5]
+ [ 4 18]]
+ 
+no. 17 step stop_early
+epoch: 134 idx: 0Loss : 0.00201011192984879
+epoch: 134 idx: 40Loss : 0.01644009335233
+epoch: 134 idx: 80Loss : 0.012287513799735169
+epoch: 134 idx: 120Loss : 0.01208358660765931
+epoch: 134 idx: 160Loss : 0.010367469958288352
+epoch: 134 idx: 200Loss : 0.010986814364587252
+train_loss_0 0.010849113428986963
+>>>>>>>>>>> Validation Epoch: 134
+  AUC 0.8835227489471436, recall 0.8181818181818182, F1 0.8, precision 0.782608695652174, acc 0.8333333333333334,confusion_matrix[[27  5]
+ [ 4 18]]
+ 
+no. 18 step stop_early
+epoch: 135 idx: 0Loss : 0.0017690499080345035
+epoch: 135 idx: 40Loss : 0.012179868355172114
+epoch: 135 idx: 80Loss : 0.009128436592646599
+epoch: 135 idx: 120Loss : 0.009222448582781527
+epoch: 135 idx: 160Loss : 0.007975304502792735
+epoch: 135 idx: 200Loss : 0.008570078401362691
+train_loss_0 0.008505597893111746
+>>>>>>>>>>> Validation Epoch: 135
+  AUC 0.8892045617103577, recall 0.8181818181818182, F1 0.8, precision 0.782608695652174, acc 0.8333333333333334,confusion_matrix[[27  5]
+ [ 4 18]]
+ 
+no. 19 step stop_early
+epoch: 136 idx: 0Loss : 0.0016217187512665987
+epoch: 136 idx: 40Loss : 0.010414102372833883
+epoch: 136 idx: 80Loss : 0.007997644364362387
+epoch: 136 idx: 120Loss : 0.007849053844781281
+epoch: 136 idx: 160Loss : 0.006606611501495953
+epoch: 136 idx: 200Loss : 0.007405773262931913
+train_loss_0 0.007456943947227533
+>>>>>>>>>>> Validation Epoch: 136
+  AUC 0.9005681872367859, recall 0.8636363636363636, F1 0.8444444444444444, precision 0.8260869565217391, acc 0.8703703703703703,confusion_matrix[[28  4]
+ [ 3 19]]
+ 
+no. 20 step stop_early
+epoch 136, auc no up in 20,so stop early
